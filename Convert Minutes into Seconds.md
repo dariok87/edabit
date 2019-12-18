@@ -8,6 +8,7 @@ convert(3) ➞ 180
 
 convert(2) ➞ 120
 
+
 Notes
 
 Don't forget to return the result.
