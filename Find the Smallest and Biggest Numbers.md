@@ -13,7 +13,12 @@ Notes
 All test arrays will have at least one element and are valid.
 
 ```javascript
+
+#1 Solution:
 function minMax(arr) {
   return [Math.min(...arr), Math.max(...arr)];
 }
+
+#2 Solution:
+const minMax = arr => [Math.min(...arr), Math.max(...arr)];
 ```
