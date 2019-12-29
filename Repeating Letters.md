@@ -13,10 +13,9 @@ Notes
 All test cases contain valid strings. Don't worry about spaces, special characters or numbers. They're all considered valid characters.
 
 ```javascript
-
-function doubleChar(str) {
-	return str.split('').map(x => x.repeat(2)).join('')
-}
-
-const
+const doubleChar = str =>
+  str
+    .split("")
+    .map(x => x.repeat(2))
+    .join("");
 ```
