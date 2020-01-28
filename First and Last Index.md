@@ -21,9 +21,17 @@ If only one instance of the character exists, the first and last index will be t
 Check the Resources tab for hints.
 
 ```javascript
+
+#1 Solution:
+
 function charIndex(word, char) {
   return word.match(char)
     ? [word.indexOf(char), word.lastIndexOf(char)]
     : undefined;
 }
+
+#2 Solution:
+
+const charIndex = (word, char) => word.match(char) ? [word.indexOf(char), word.lastIndexOf(char)] : undefined;
+
 ```
