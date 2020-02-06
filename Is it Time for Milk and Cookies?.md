@@ -14,4 +14,6 @@ Dates are zero zero based (see resources).
 All test cases contain valid dates.
 
 ```javascript
+const timeForMilkAndCookies = date =>
+  date.getDate() === 24 && date.getMonth() === 11;
 ```
