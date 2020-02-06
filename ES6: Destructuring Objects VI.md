@@ -24,7 +24,7 @@ If you get stuck you can find the answer in one of the yellow notes on the MDN d
 
 ```javascript
 const str = `
-function shirtSize({size = "big"}) { 
+function shirtSize({size = "big"} = {}) { 
   return size
 }
 `;
