@@ -29,4 +29,14 @@ Notes
 Check the Resources tab for more info on callbacks.
 
 ```javascript
+function anotherFunc() {
+  let str = "bye";
+  setTimeout(() => {}, 100);
+}
+
+var doc = "hello";
+
+function callback(str) {
+  doc = str;
+}
 ```
