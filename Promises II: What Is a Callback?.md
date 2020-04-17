@@ -29,9 +29,11 @@ Notes
 Check the Resources tab for more info on callbacks.
 
 ```javascript
-function anotherFunc() {
+function anotherFunc(cb) {
   let str = "bye";
-  setTimeout(() => {}, 100);
+  setTimeout(() => {
+    cb(str);
+  }, 100);
 }
 
 var doc = "hello";
