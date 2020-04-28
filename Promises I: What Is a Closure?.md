@@ -24,9 +24,9 @@ Notes
 Check the Resources tab for more info on closures.
 
 ```javascript
-function greetingMaker() {
-  function closure(name) {
+function greetingMaker(salutation) {
+  return function closure(name) {
     return salutation + ", " + name;
-  }
+  };
 }
 ```
