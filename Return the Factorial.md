@@ -10,6 +10,5 @@ Notes
 Assume all inputs are greater than or equal to 0.
 
 ```javascript
-const factorial = (num) => (num === 1 ? num : num * factorial(num - 1));
-``;
+const factorial = (num) => (num === 1 ? num : num * factorial(num - 1);
 ```
