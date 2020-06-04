@@ -11,5 +11,5 @@ If the input tries to divide by 0, return: "Can't divide by 0!"
 
 ```javascript
 const calculator = (m, o, n) =>
-  o + n === "/0" ? "Cannot divide by 0!" : eval(m + o + n);
+  o + n === "/0" ? "Can't divide by 0!" : eval(m + o + n);
 ```
