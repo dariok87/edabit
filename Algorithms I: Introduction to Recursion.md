@@ -37,3 +37,11 @@ Puts statements can be added to the Countdown function example for illustrative 
 Terms that are placed in italics ("example"), while not always necessary to completing the challenge, can be helpful or just generally good to know as an aspiring programmer or computer science student/enthusiast.
 Several of the challenges that will be covered in this collection on algorithms can be solved non-recursively and without implementing the algorithms described in each challenge. I implore anyone solving these challenges to do them as intended. Not understanding the concepts taught will be an obstacle to later challenges and won't aid anyone in advancing their skills as a programmer.
 If you are stuck please check the Resources tab, Comments tab, or if you're really stuck, use the Solutions tab to unlock the answers.
+
+```javascript
+function factorial(x) {
+  if (x < 0) return;
+  if (x === 0) return 1;
+  return x * factorial(x - 1);
+}
+```
