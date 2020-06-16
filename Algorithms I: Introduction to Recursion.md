@@ -39,9 +39,16 @@ Several of the challenges that will be covered in this collection on algorithms 
 If you are stuck please check the Resources tab, Comments tab, or if you're really stuck, use the Solutions tab to unlock the answers.
 
 ```javascript
+
+#1 Solution:
+
 function factorial(x) {
   if (x < 0) return;
   if (x === 0) return 1;
   return x * factorial(x - 1);
 }
+
+#2 Solution:
+
+const factorial = num => num === 0 ? 1 : num * factorial(--num)
 ```
