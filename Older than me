@@ -20,5 +20,15 @@ Check out the Resources tab for some helpful tutorials on JavaScript classes!
 If you're really stuck, check out the Solutions tab for answer.
 
 ```javascript
+class Person {
+	constructor(name, age) {
+		this.name = name;
+		this.age = age;
+	}
 
+	compareAge(other) {
+		// Write code here!
+		
+	}
+}
 ```
