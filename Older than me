@@ -2,7 +2,7 @@
 
 {other persons name} is {older than / younger than / the same age as} me
 
-Examples :
+Example :
 
 p1 = Person("Samuel", 24)
 p2 = Person("Joel", 36)
